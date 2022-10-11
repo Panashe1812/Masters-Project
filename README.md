@@ -1,6 +1,6 @@
-# AI and Robotics Masters-Project 
+# AI and Robotics Masters-Project Notebooks for training vgg and resent models using PyTorch
 Project Report available @ https://tinyurl.com/y3sbz27a
-Notebooks for training vgg and resent models using PyTorch
+
 
 ABSTRACT
 This project evaluates various methods that are used to explain the predictions of deep learning algorithms during the design and implementation phases. Vgg 16. Vgg19, resnet18 and resnet34 models are trained on the Fairface dataset achieving accuracies of 59%, 61%,63 and 64 %  respectively. The trained model is used to calculate the prediction score. Explainable AI methods such as LIME shap, gradCAM and saliency maps are applied to the test images. Although the methods use represent the important features in terms of pixel, this study takes the approach that a group of such pixels within a locality can be labelled in human understandable explanations e.g. if pixel on the eye contributed the most to the prediction as represented by a high intensity region in the case of gradCAM or a green patch in the case of lime. The analysis of the confusion matrix shows a high false negative rates for Latino, southeast Asian and middle east classes which are subject of the analysis completed in this project. Based on this analysis this project concludes that with the exception of shap the methods evaluated in this  study are effective for mitigating bias in face recognition algorithms 
